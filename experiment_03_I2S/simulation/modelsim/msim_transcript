@@ -1,0 +1,55 @@
+# Reading pref.tcl
+# do I2S_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying E:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S {C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/i2sMaster.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:17 on May 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S" C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/i2sMaster.v 
+# -- Compiling module i2sMaster
+# -- Compiling module bitClkGen
+# 
+# Top level modules:
+# 	i2sMaster
+# 	bitClkGen
+# End time: 23:39:17 on May 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S {C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/sim.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:17 on May 27,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S" C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/sim.v 
+# -- Compiling module i2cMtestbench
+# 
+# Top level modules:
+# 	i2cMtestbench
+# End time: 23:39:17 on May 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  i2cMtestbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" i2cMtestbench 
+# Start time: 23:39:17 on May 27,2021
+# Loading work.i2cMtestbench
+# Loading work.i2sMaster
+# Loading work.bitClkGen
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/sim.v(28)
+#    Time: 40 us  Iteration: 0  Instance: /i2cMtestbench
+# 1
+# Break in Module i2cMtestbench at C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/sim.v line 28
+# End time: 23:41:44 on May 27,2021, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 0

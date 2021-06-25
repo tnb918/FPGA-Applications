@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at user_uart_tx.sv(9): object "TX_CNT" differs only in case from object "tx_cnt" in the same scope File: C:/Users/TNB/Desktop/FPGA/experiment/experiment_04_RISC-V/HX1006A_HDRVSoC/RTL/user_uart_tx.sv Line: 9
+Info (10281): Verilog HDL Declaration information at isp_uart.sv(22): object "addr" differs only in case from object "ADDR" in the same scope File: C:/Users/TNB/Desktop/FPGA/experiment/experiment_04_RISC-V/HX1006A_HDRVSoC/RTL/isp_uart.sv Line: 22

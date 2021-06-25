@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat Jun 19 12:31:52 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : HX1006A_HDRVSoC_top
+Top-level Entity Name : HX1006A_HDRVSoC_top
+Family : Cyclone 10 LP
+Total logic elements : 4,193
+    Total combinational functions : 3,986
+    Dedicated logic registers : 1,086
+Total registers : 1086
+Total pins : 21
+Total virtual pins : 0
+Total memory bits : 125,952
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

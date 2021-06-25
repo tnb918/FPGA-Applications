@@ -1,0 +1,46 @@
+|i2sMaster
+rst => bitCounter[0].PRESET
+rst => bitCounter[1].PRESET
+rst => bitCounter[2].PRESET
+rst => bitCounter[3].PRESET
+rst => LRCLK~reg0.ACLR
+BCLK_o << BCLK.DB_MAX_OUTPUT_PORT_TYPE
+LRCLK << LRCLK~reg0.DB_MAX_OUTPUT_PORT_TYPE
+SDATA << dataBuff[15].DB_MAX_OUTPUT_PORT_TYPE
+BCLK_i => BCLK.IN0
+rightAudio[0] => dataBuff.DATAB
+rightAudio[1] => dataBuff.DATAB
+rightAudio[2] => dataBuff.DATAB
+rightAudio[3] => dataBuff.DATAB
+rightAudio[4] => dataBuff.DATAB
+rightAudio[5] => dataBuff.DATAB
+rightAudio[6] => dataBuff.DATAB
+rightAudio[7] => dataBuff.DATAB
+rightAudio[8] => dataBuff.DATAB
+rightAudio[9] => dataBuff.DATAB
+rightAudio[10] => dataBuff.DATAB
+rightAudio[11] => dataBuff.DATAB
+rightAudio[12] => dataBuff.DATAB
+rightAudio[13] => dataBuff.DATAB
+rightAudio[14] => dataBuff.DATAB
+rightAudio[15] => dataBuff.DATAB
+leftAudio[0] => dataBuff.DATAA
+leftAudio[1] => dataBuff.DATAA
+leftAudio[2] => dataBuff.DATAA
+leftAudio[3] => dataBuff.DATAA
+leftAudio[4] => dataBuff.DATAA
+leftAudio[5] => dataBuff.DATAA
+leftAudio[6] => dataBuff.DATAA
+leftAudio[7] => dataBuff.DATAA
+leftAudio[8] => dataBuff.DATAA
+leftAudio[9] => dataBuff.DATAA
+leftAudio[10] => dataBuff.DATAA
+leftAudio[11] => dataBuff.DATAA
+leftAudio[12] => dataBuff.DATAA
+leftAudio[13] => dataBuff.DATAA
+leftAudio[14] => dataBuff.DATAA
+leftAudio[15] => dataBuff.DATAA
+enable => BCLK.IN1
+RightNLeft << RightNLeft~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

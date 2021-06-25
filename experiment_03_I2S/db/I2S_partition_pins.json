@@ -1,0 +1,165 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "BCLK_o",
+					"strict" : false
+				},
+				{
+					"name" : "LRCLK",
+					"strict" : false
+				},
+				{
+					"name" : "SDATA",
+					"strict" : false
+				},
+				{
+					"name" : "RightNLeft",
+					"strict" : false
+				},
+				{
+					"name" : "BCLK_i",
+					"strict" : false
+				},
+				{
+					"name" : "enable",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[15]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[15]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[14]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[14]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[13]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[13]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[12]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[12]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[11]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[11]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[10]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[10]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[9]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[9]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[8]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[8]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[7]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[7]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[6]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[6]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[5]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[5]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[4]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[4]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[3]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[2]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[1]",
+					"strict" : false
+				},
+				{
+					"name" : "leftAudio[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rightAudio[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

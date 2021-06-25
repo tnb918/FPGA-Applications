@@ -1,0 +1,41 @@
+module FPU(
+		input clk,
+		input [31:0] dataA,
+		input [31:0] dataB,
+		output[31:0] result_div,
+		output[31:0] result_mult,
+		output[31:0] result_add,
+		output[31:0] result_sub,
+	);
+
+
+FPU_div u_FPU_div(
+										.clock		(clk),
+										.dataa		(dataA),
+										.datab		(dataB),
+										.result		(result_div)
+);
+	
+FPU_mult u_FPU_mult(
+										.clock		(clk),
+										.dataa		(dataA),
+										.datab		(dataB),
+										.result		(result_mult)
+);
+
+
+FPU_add u_FPU_add(
+										.clock		(clk),
+										.dataa		(dataA),
+										.datab		(dataB),
+										.result		(result_add)
+);
+
+FPU_sub u_FPU_sub(
+										.clock		(clk),
+										.dataa		(dataA),
+										.datab		(dataB),
+										.result		(result_sub)
+);
+
+endmodule

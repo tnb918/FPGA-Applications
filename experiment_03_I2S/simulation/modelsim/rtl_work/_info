@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/simulation/modelsim
+vbitClkGen
+Z1 !s110 1622129957
+!i10b 1
+!s100 YM8NE;JZ3_EBC5KZmJ:EO2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ISJPA;58lc2jV1:lBm4hKe1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1621697099
+Z5 8C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/i2sMaster.v
+Z6 FC:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/i2sMaster.v
+!i122 0
+L0 74 30
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1622129957.000000
+Z9 !s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/i2sMaster.v|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S|C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/i2sMaster.v|
+!i113 1
+Z11 o-vlog01compat -work work
+Z12 !s92 -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S
+Z13 tCvgOpt 0
+nbit@clk@gen
+vi2cMtestbench
+R1
+!i10b 1
+!s100 AF9RKGkf<iO4JZViQCazF3
+R2
+IRkDYRkdgOg3o9b9URo4F`1
+R3
+R0
+w1622129907
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/sim.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/sim.v
+!i122 1
+L0 3 42
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/sim.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S|C:/Users/TNB/Desktop/FPGA/experiment/experiment_03_I2S/sim.v|
+!i113 1
+R11
+R12
+R13
+ni2c@mtestbench
+vi2sMaster
+R1
+!i10b 1
+!s100 B2WB;HR3Q2kXmAN1P7EFQ1
+R2
+IB_SAZZF5]k>E`<kLG>:N:0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 1 70
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+R13
+ni2s@master

@@ -1,0 +1,13 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_add.v}
+vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_sub.v}
+vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_div.v}
+vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_mul.v}
+vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU.v}
+

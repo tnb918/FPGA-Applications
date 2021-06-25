@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at keyExp.v(44): always construct contains both blocking and non-blocking assignments File: C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/keyExp.v Line: 44

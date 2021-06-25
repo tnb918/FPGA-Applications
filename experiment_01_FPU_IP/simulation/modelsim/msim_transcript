@@ -1,0 +1,206 @@
+# Reading E:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do FPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_add.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:12:47 on May 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP" C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_add.v 
+# -- Compiling module FPU_add_altbarrel_shift_s4e
+# -- Compiling module FPU_add_altbarrel_shift_28g
+# -- Compiling module FPU_add_altpriority_encoder_3e8
+# -- Compiling module FPU_add_altpriority_encoder_6e8
+# -- Compiling module FPU_add_altpriority_encoder_be8
+# -- Compiling module FPU_add_altpriority_encoder_3v7
+# -- Compiling module FPU_add_altpriority_encoder_6v7
+# -- Compiling module FPU_add_altpriority_encoder_bv7
+# -- Compiling module FPU_add_altpriority_encoder_uv8
+# -- Compiling module FPU_add_altpriority_encoder_ue9
+# -- Compiling module FPU_add_altpriority_encoder_ou8
+# -- Compiling module FPU_add_altpriority_encoder_nh8
+# -- Compiling module FPU_add_altpriority_encoder_qh8
+# -- Compiling module FPU_add_altpriority_encoder_vh8
+# -- Compiling module FPU_add_altpriority_encoder_ii9
+# -- Compiling module FPU_add_altpriority_encoder_n28
+# -- Compiling module FPU_add_altpriority_encoder_q28
+# -- Compiling module FPU_add_altpriority_encoder_v28
+# -- Compiling module FPU_add_altpriority_encoder_i39
+# -- Compiling module FPU_add_altpriority_encoder_cna
+# -- Compiling module FPU_add_altfp_add_sub_c6j
+# -- Compiling module FPU_add
+# 
+# Top level modules:
+# 	FPU_add
+# End time: 11:12:47 on May 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_sub.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:12:47 on May 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP" C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_sub.v 
+# -- Compiling module FPU_sub_altbarrel_shift_s4e
+# -- Compiling module FPU_sub_altbarrel_shift_28g
+# -- Compiling module FPU_sub_altpriority_encoder_3e8
+# -- Compiling module FPU_sub_altpriority_encoder_6e8
+# -- Compiling module FPU_sub_altpriority_encoder_be8
+# -- Compiling module FPU_sub_altpriority_encoder_3v7
+# -- Compiling module FPU_sub_altpriority_encoder_6v7
+# -- Compiling module FPU_sub_altpriority_encoder_bv7
+# -- Compiling module FPU_sub_altpriority_encoder_uv8
+# -- Compiling module FPU_sub_altpriority_encoder_ue9
+# -- Compiling module FPU_sub_altpriority_encoder_ou8
+# -- Compiling module FPU_sub_altpriority_encoder_nh8
+# -- Compiling module FPU_sub_altpriority_encoder_qh8
+# -- Compiling module FPU_sub_altpriority_encoder_vh8
+# -- Compiling module FPU_sub_altpriority_encoder_ii9
+# -- Compiling module FPU_sub_altpriority_encoder_n28
+# -- Compiling module FPU_sub_altpriority_encoder_q28
+# -- Compiling module FPU_sub_altpriority_encoder_v28
+# -- Compiling module FPU_sub_altpriority_encoder_i39
+# -- Compiling module FPU_sub_altpriority_encoder_cna
+# -- Compiling module FPU_sub_altfp_add_sub_d7j
+# -- Compiling module FPU_sub
+# 
+# Top level modules:
+# 	FPU_sub
+# End time: 11:12:48 on May 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_div.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:12:48 on May 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP" C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_div.v 
+# -- Compiling module FPU_div_altfp_div_pst_ire
+# -- Compiling module FPU_div_altfp_div_idh
+# -- Compiling module FPU_div
+# 
+# Top level modules:
+# 	FPU_div
+# End time: 11:12:48 on May 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_mul.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:12:48 on May 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP" C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_mul.v 
+# -- Compiling module FPU_mul_altfp_mult_3tn
+# -- Compiling module FPU_mul
+# 
+# Top level modules:
+# 	FPU_mul
+# End time: 11:12:48 on May 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:12:48 on May 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP" C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU.v 
+# -- Compiling module FPU
+# 
+# Top level modules:
+# 	FPU
+# End time: 11:12:48 on May 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/simulation/modelsim {C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/simulation/modelsim/FPU.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:12:48 on May 09,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/simulation/modelsim" C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/simulation/modelsim/FPU.vt 
+# -- Compiling module FPU_vlg_tst
+# 
+# Top level modules:
+# 	FPU_vlg_tst
+# End time: 11:12:48 on May 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs="+acc"  FPU
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclone10lp_ver -L rtl_work -L work -voptargs=""+acc"" FPU 
+# Start time: 11:12:48 on May 09,2021
+# Loading work.FPU
+# Loading work.FPU_add
+# Loading work.FPU_add_altfp_add_sub_c6j
+# Loading work.FPU_add_altbarrel_shift_s4e
+# Loading work.FPU_add_altbarrel_shift_28g
+# Loading work.FPU_add_altpriority_encoder_ou8
+# Loading work.FPU_add_altpriority_encoder_uv8
+# Loading work.FPU_add_altpriority_encoder_be8
+# Loading work.FPU_add_altpriority_encoder_6e8
+# Loading work.FPU_add_altpriority_encoder_3e8
+# Loading work.FPU_add_altpriority_encoder_bv7
+# Loading work.FPU_add_altpriority_encoder_6v7
+# Loading work.FPU_add_altpriority_encoder_3v7
+# Loading work.FPU_add_altpriority_encoder_ue9
+# Loading work.FPU_add_altpriority_encoder_cna
+# Loading work.FPU_add_altpriority_encoder_ii9
+# Loading work.FPU_add_altpriority_encoder_vh8
+# Loading work.FPU_add_altpriority_encoder_qh8
+# Loading work.FPU_add_altpriority_encoder_nh8
+# Loading work.FPU_add_altpriority_encoder_i39
+# Loading work.FPU_add_altpriority_encoder_v28
+# Loading work.FPU_add_altpriority_encoder_q28
+# Loading work.FPU_add_altpriority_encoder_n28
+# Loading lpm_ver.lpm_add_sub
+# Loading lpm_ver.lpm_compare
+# Loading work.FPU_sub
+# Loading work.FPU_sub_altfp_add_sub_d7j
+# Loading work.FPU_sub_altbarrel_shift_s4e
+# Loading work.FPU_sub_altbarrel_shift_28g
+# Loading work.FPU_sub_altpriority_encoder_ou8
+# Loading work.FPU_sub_altpriority_encoder_uv8
+# Loading work.FPU_sub_altpriority_encoder_be8
+# Loading work.FPU_sub_altpriority_encoder_6e8
+# Loading work.FPU_sub_altpriority_encoder_3e8
+# Loading work.FPU_sub_altpriority_encoder_bv7
+# Loading work.FPU_sub_altpriority_encoder_6v7
+# Loading work.FPU_sub_altpriority_encoder_3v7
+# Loading work.FPU_sub_altpriority_encoder_ue9
+# Loading work.FPU_sub_altpriority_encoder_cna
+# Loading work.FPU_sub_altpriority_encoder_ii9
+# Loading work.FPU_sub_altpriority_encoder_vh8
+# Loading work.FPU_sub_altpriority_encoder_qh8
+# Loading work.FPU_sub_altpriority_encoder_nh8
+# Loading work.FPU_sub_altpriority_encoder_i39
+# Loading work.FPU_sub_altpriority_encoder_v28
+# Loading work.FPU_sub_altpriority_encoder_q28
+# Loading work.FPU_sub_altpriority_encoder_n28
+# Loading work.FPU_mul
+# Loading work.FPU_mul_altfp_mult_3tn
+# Loading lpm_ver.lpm_mult
+# Loading lpm_ver.LPM_HINT_EVALUATION
+# Loading work.FPU_div
+# Loading work.FPU_div_altfp_div_idh
+# Loading work.FPU_div_altfp_div_pst_ire
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3016) C:/Users/TNB/Desktop/FPGA/experiment/experiment_01_FPU_IP/FPU_div.v(276): Port type is incompatible with connection (port 'clock0').
+#    Time: 0 ps  Iteration: 0  Instance: /FPU/u_FPU_div/FPU_div_altfp_div_idh_component/altfp_div_pst1/altsyncram3 File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3016) /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(47804): Port type is incompatible with connection (port 'clock0').
+#    Time: 0 ps  Iteration: 0  Instance: /FPU/u_FPU_div/FPU_div_altfp_div_idh_component/altfp_div_pst1/altsyncram3/m_default/altsyncram_inst File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+force -freeze sim:/FPU/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/FPU/dataA 01000000100100000000000000000000 0
+force -freeze sim:/FPU/dataB 00111111110000000000000000000000 0
+run 10ns
+force -freeze sim:/FPU/dataA 01000000110010000000000000000000 0
+force -freeze sim:/FPU/dataB 01000000001000000000000000000000 0
+run 10ns
+force -freeze sim:/FPU/dataA 01000001101101000000000000000000 0
+force -freeze sim:/FPU/dataB 01000010001101000000000000000000 0
+run 10ns
+force -freeze sim:/FPU/dataA 01000001010010000000000000000000 0
+force -freeze sim:/FPU/dataB 01000001110010000000000000000000 0
+run 10ns
+# End time: 11:31:33 on May 09,2021, Elapsed time: 0:18:45
+# Errors: 0, Warnings: 2

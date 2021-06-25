@@ -1,0 +1,235 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/simulation/modelsim
+vAES_encryp_top
+Z1 !s110 1621146764
+!i10b 1
+!s100 S]zhN7n1ej=JYRIRY^3XE1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IkkOm5?Vza_?i_Mg4eC>]W0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1587617966
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/AES_encryp_top.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/AES_encryp_top.v
+!i122 6
+L0 1 218
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1621146764.000000
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/AES_encryp_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/AES_encryp_top.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES
+Z9 tCvgOpt 0
+n@a@e@s_encryp_top
+vAES_encryp_top_vlg_tst
+R1
+!i10b 1
+!s100 6Sm1765lo=kac6;<;MDbF1
+R2
+IWYAT[o@XkC52=8gmRPfMl2
+R3
+R0
+w1621146699
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/simulation/modelsim/AES_encryp_top.vt
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/simulation/modelsim/AES_encryp_top.vt
+!i122 8
+L0 29 40
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/simulation/modelsim/AES_encryp_top.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/simulation/modelsim|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/simulation/modelsim/AES_encryp_top.vt|
+!i113 1
+R7
+!s92 -vlog01compat -work work +incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/simulation/modelsim
+R9
+n@a@e@s_encryp_top_vlg_tst
+vcolMix_keyAdd
+R1
+!i10b 1
+!s100 zF]LL^CJkU:5M>HKiXdj72
+R2
+IBETPjKP^4OkUCo0NJkZGB3
+R3
+R0
+R4
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/colMix_keyAdd.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/colMix_keyAdd.v
+!i122 5
+L0 1 41
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/colMix_keyAdd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/colMix_keyAdd.v|
+!i113 1
+R7
+R8
+R9
+ncol@mix_key@add
+vkeyExp
+R1
+!i10b 1
+!s100 FUEVB3CfHY3oofP@0761c2
+R2
+I0@LAM>_o=mfgQYooPV^o=2
+R3
+R0
+R4
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/keyExp.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/keyExp.v
+!i122 4
+L0 6 65
+R5
+r1
+!s85 0
+31
+Z10 !s108 1621146763.000000
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/keyExp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/keyExp.v|
+!i113 1
+R7
+R8
+R9
+nkey@exp
+vrom_2p
+R1
+!i10b 1
+!s100 X^C=]idFZ^SV1AX=D8TIC1
+R2
+IXLL87NX`QllNh=c2`<m4a0
+R3
+R0
+w1621146472
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/rom_2p.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/rom_2p.v
+!i122 7
+L0 40 84
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/rom_2p.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/rom_2p.v|
+!i113 1
+R7
+R8
+R9
+vroundFunc
+Z11 !s110 1621146763
+!i10b 1
+!s100 aD:O?7JL_ZV=O_0Q6d;aU3
+R2
+IIB:7IZ2[Bz:KPigmX3H>[0
+R3
+R0
+R4
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/roundFunc.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/roundFunc.v
+!i122 3
+L0 1 29
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/roundFunc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/roundFunc.v|
+!i113 1
+R7
+R8
+R9
+nround@func
+vroundFunc_10
+R11
+!i10b 1
+!s100 0_XN[XPe@;Iclk>b6E6C81
+R2
+I88>_4^fhkm<K^;jOWZdjO2
+R3
+R0
+R4
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/roundFunc_10.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/roundFunc_10.v
+!i122 2
+L0 1 28
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/roundFunc_10.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/roundFunc_10.v|
+!i113 1
+R7
+R8
+R9
+nround@func_10
+vsubByte_rowShift
+R11
+!i10b 1
+!s100 3@GZ4cE@AVj0Z]IQ30f]=1
+R2
+IIcNM7@>A[4SMme7<7OS6:2
+R3
+R0
+R4
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/subByte_rowShift.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/subByte_rowShift.v
+!i122 1
+L0 1 84
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/subByte_rowShift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/subByte_rowShift.v|
+!i113 1
+R7
+R8
+R9
+nsub@byte_row@shift
+vsubColMix
+R11
+!i10b 1
+!s100 2e79L32DEWlbgcE2OTA953
+R2
+I`n>6bm067G6H?Y`6IeebW3
+R3
+R0
+R4
+8C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/subColMix.v
+FC:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/subColMix.v
+!i122 0
+L0 1 25
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/subColMix.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES|C:/Users/TNB/Desktop/FPGA/experiment/experiment_02_AES/subColMix.v|
+!i113 1
+R7
+R8
+R9
+nsub@col@mix
